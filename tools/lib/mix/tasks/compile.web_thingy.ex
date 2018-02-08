@@ -14,6 +14,7 @@ defmodule Mix.Tasks.Compile.WebThingy do
     end
 
     # Do something with npm here
+    Mix.Project.build_structure()
 
     Mix.Task.run "phoenix.digest"
   end
